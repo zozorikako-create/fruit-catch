@@ -1,0 +1,49 @@
+# === Unity ===
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+MemoryCaptures/
+Assets/AssetStoreTools*
+
+# === IDE / Project files ===
+.vs/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# === OS junk ===
+.DS_Store
+Thumbs.db
+*.tmp
+
+# === Packages / Archives ===
+*.unitypackage
+
+# === Android outputs ===
+*.apk
+*.aab
+
+# === Gradle cache ===
+.gradle/
+**/gradle-out/
+
+# === VSCode (設定は許可) ===
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
