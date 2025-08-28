@@ -1,0 +1,20 @@
+* text=auto
+
+# 画像・バイナリは変換しない
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.psd binary
+*.wav binary
+*.mp3 binary
+
+# Unityメタ・アセットはテキスト扱い
+*.meta text eol=lf
+*.anim text eol=lf
+*.unity text eol=lf
+*.prefab text eol=lf
+*.mat text eol=lf
+*.shader text eol=lf
+*.cginc text eol=lf
+*.compute text eol=lf
+*.cs text eol=lf
